@@ -1,10 +1,9 @@
 import React from "react";
-import logo from "../logo192.png";
 
 const Navbar = () => {
   return (
     <nav className="bg-blue-900 flex w-full h-20 drop-shadow-2xl">
-      <img src={logo} className="h-16 w-16 mt-2 ml-5 animate-spin" />
+      {/* <img className="h-16 w-16 mt-2 ml-5 animate-spin" /> */}
       <div className="flex space-x-14">
         {" "}
         <div>
